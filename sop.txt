@@ -29,5 +29,23 @@ git push -u origin main
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 
-#8. Todo later
+#8.  Viewing branches
+git branch
+
+
+#9. Create a new branch
+git branch feature/updating-codes
+
+
+#10. Switching to the new branch is called doing a "checkout"
+git checkout feature/updating-codes
+
+
+#11. Create a new branch and switch to it in one step 
+#    (directly creating and checkout to a new branch)
+git checkout -b feature/updating-codes1
+
+
+
+#odo later
 git add README.md
