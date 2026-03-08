@@ -1,8 +1,3 @@
-
-
-
-
-
 #1. Initialization of Git repo in a folder
 git init
 
@@ -30,5 +25,9 @@ git commit -m "first commit"
 git push -u origin main
 
 
-#7. Todo later
+#7: Authentication fails, run below command - globally setting the github username, and login email
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+#8. Todo later
 git add README.md
