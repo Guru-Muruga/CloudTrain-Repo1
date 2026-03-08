@@ -3,10 +3,32 @@
 
 
 
-echo "# CloudTrain-Repo1" >> README.md
+#1. Initialization of Git repo in a folder
 git init
-git add README.md
-git commit -m "first commit"
+
+
+#2. Adding my default branch as "Main"
 git branch -M main
+
+
+#3. Adding public url for this project
 git remote add origin https://github.com/Guru-Muruga/CloudTrain-Repo1.git
+
+
+#4. Adding files in staging area
+git add test-file1.txt
+git add test-file2.txt 
+
+git add .
+
+
+#5. Committing the changes to Local Repo1
+git commit -m "first commit"
+
+
+#6. Pushing to public repo
 git push -u origin main
+
+
+#7. Todo later
+git add README.md
